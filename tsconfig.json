@@ -1,0 +1,36 @@
+{
+  "include": [
+    "components",
+    "hooks",
+    "lib",
+    "pages",
+    "stores"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "declaration": false,
+    "noUnusedLocals": false,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
